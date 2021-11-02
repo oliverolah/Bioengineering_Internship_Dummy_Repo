@@ -11,5 +11,8 @@
     "django"
   ],
   "author": "Oliver Olah",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.59.0"
+  }
 }
