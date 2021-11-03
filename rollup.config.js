@@ -1,3 +1,5 @@
+import babel from 'rollup-plugin-babel';
+
 export default {
    input: 'js/main.js',
    output: {
@@ -6,4 +8,9 @@ export default {
       name: 'bundle'
    },
    sourceMap: 'inline',
+   plugins: [
+      babel({
+         exclude: 'node_modules/**',
+      }),
+   ],
 };
