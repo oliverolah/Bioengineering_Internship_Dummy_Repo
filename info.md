@@ -5,5 +5,12 @@
 
 
 # Useful Video Links:
+   
+   # These links are for serving static files
    https://www.youtube.com/watch?v=AeCZvXZn5dg
    https://www.youtube.com/watch?v=QTb5fK1SiFU
+
+   # These links are for connecting to postgresql db
+   https://www.youtube.com/watch?v=d--mEqEUybA&t=244s
+   https://www.youtube.com/watch?v=69YkZqZgz9s&t=226s
+      watch the above link (2:45)
