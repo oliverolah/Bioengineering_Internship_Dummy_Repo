@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import ToDoList
 
 
 def index(response):
-   return HttpResponse("<h1>Helllooo!</h1>")
+   return render(response, "html/base.html")
