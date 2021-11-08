@@ -2,7 +2,7 @@ import babel from 'rollup-plugin-babel';
 import npm from "rollup-plugin-node-resolve";
 
 export default {
-   input: 'js/main.js',
+   input: 'dummyappone/static/js/index.js',
    output: {
       file: 'build/js/rollup-bundle.js',
       format: 'iife',
@@ -17,4 +17,6 @@ export default {
          jsnext: true
       }),
    ],
+   moduleId: 'd3',
+   moduleName: 'd3'
 };

@@ -127,10 +127,10 @@ STATIC_URL = '/static/'
 # Relative path to base/root directory to static folder
 # Often this one is used for 3rd part style templates so it can be left-out. Also it will overide the above STATIC_URL variable
 # So rather use the above sample
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    #'/var/www/static/',
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+#     #'/var/www/static/',
+# ]
 
 # The below variable emulates what would happen in production
 STATIC_ROOT = BASE_DIR / "static_files"
