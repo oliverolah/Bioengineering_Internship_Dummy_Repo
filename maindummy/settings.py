@@ -79,6 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'testone',
+        'USER': 'postgres',
+        'PASSWORD': 'admin856QsCgY',
+        'HOST': 'localhost' 
     }
 }
 
