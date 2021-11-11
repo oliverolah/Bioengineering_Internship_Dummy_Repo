@@ -9,7 +9,6 @@
    # These links are for serving static files
    https://www.youtube.com/watch?v=AeCZvXZn5dg
    https://www.youtube.com/watch?v=QTb5fK1SiFU
-      go over the link above again (6:20)
       - python manage.py collectstatic
 
    # These links are for connecting to postgresql db
